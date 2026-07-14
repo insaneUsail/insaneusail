@@ -137,15 +137,14 @@
 
 ## GitHub Stats
 
-<table>
-  <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=insaneUsail&show_icons=true&theme=synthwave&hide_border=true" /></td>
-    <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=insaneUsail&theme=synthwave&hide_border=true" /></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=insaneUsail&show_icons=true&theme=synthwave&hide_border=true" alt="Usail's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=insaneUsail&theme=synthwave&hide_border=true" alt="Usail's Streak Stats" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=insaneUsail&layout=compact&theme=synthwave&hide_border=true)
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=insaneUsail&layout=compact&theme=synthwave&hide_border=true" alt="Top Languages" />
+</p>
 
 ![snake gif](https://github.com/insaneUsail/insaneUsail/blob/output/github-contribution-grid-snake.svg)
 
