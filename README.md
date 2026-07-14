@@ -17,7 +17,7 @@
 <table>
 <tr>
 <td width="160" valign="top">
-<img src="assets/about.jpg" width="100%" height="100%" style="border-radius:10px;object-fit:cover;" />
+<img src="assets/about.jpg" width="160" height="100%" style="border-radius:10px;object-fit:cover;" />
 <!-- replace assets/about.png with your own photo/avatar, same file name -->
 </td>
 <td valign="top">
