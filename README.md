@@ -15,12 +15,17 @@
 ## About Me
 
 
+## About Me
+
 <table>
 <tr>
-<td width="260" valign="top">
+<!-- Image Column -->
+<td width="260" valign="top" align="center">
   <img src="assets/about.jpg" width="250" style="border-radius:10px; display:block; box-shadow: 0 4px 20px rgba(238,186,44,0.15);" alt="Usail Khan" />
 </td>
-<td valign="top" style="padding-left: 15px;">
+
+<!-- Text Column with Custom Background Color -->
+<td valign="top" bgcolor="#161b22" style="padding: 20px; border-radius: 10px;">
 
 ### Hi there! 👋
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=eeba2c&width=450&lines=I+build+end-to-end+products.;Focusing+on+real-time+systems.;Wiring+LLMs+into+real+features." alt="Typing SVG" /></a>
@@ -37,6 +42,8 @@ Lately I've been focused on infrastructure — job queues, webhook security, rat
 </td>
 </tr>
 </table>
+
+## Tech Stack
 
 ## Tech Stack
 
