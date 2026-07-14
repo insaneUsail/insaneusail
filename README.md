@@ -1,11 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:5BCDEC&height=220&section=header&text=Usail%20Khan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%94%20Real-Time%20Systems%20%2B%20AI%20Integrations&descAlignY=58&descSize=20" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:eeba2c,100:000000&height=220&section=header&text=Usail%20Khan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%94%20Real-Time%20Systems%20%2B%20AI%20Integrations&descAlignY=58&descSize=20" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=5BCDEC&center=true&vCenter=true&width=600&lines=Building+chat+apps%2C+canvases%2C+and+AI-integrated+backends;Currently+exploring+queues%2C+WebSockets%2C+and+voice+AI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=eeba2c&center=true&vCenter=true&width=600&lines=Building+chat+apps%2C+canvases%2C+and+AI-integrated+backends;Currently+exploring+queues%2C+WebSockets%2C+and+voice+AI)](https://git.io/typing-svg)
 
-<img src="https://komarev.com/ghpvc/?username=insaneUsail&label=Profile%20views&color=5BCDEC&style=flat" alt="profile views" />
-
+<img src="https://komarev.com/ghpvc/?username=insaneUsail&label=Profile%20views&color=eeba2c&style=flat" alt="profile views" />
 </div>
 
 <br>
