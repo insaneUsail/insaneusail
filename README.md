@@ -34,11 +34,11 @@
 
 ## Tech Stack
 
- <img src="assets/github-stats.jpg" width="300" align="left" style="border-radius:10px; margin-left: 15px; margin-top:20px" alt="Usail Khan" />
+ <img src="assets/github-stats.jpg" width="420" align="left" style="border-radius:10px; margin-left: 15px; margin-top:20px" alt="Usail Khan" />
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,react,nextjs,redux,tailwind,vite,nodejs,express,fastapi,postgres,mongodb,prisma,firebase,supabase,redis,docker,vercel,git,github&perline=8" />
+    <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,react,nextjs,redux,tailwind,vite,nodejs,express,fastapi,postgres,mongodb,prisma,firebase,supabase,redis,docker,vercel,git,github&perline=10" />
   </a>
 </p>
 
