@@ -119,8 +119,6 @@ Lately I've been focused on infrastructure — job queues, webhook security, rat
 </tr>
 </table>
 
-<sub>💡 Replace each `assets/*.png` placeholder with your own image (same file name, ~200×200px) in an `assets/` folder in this repo.</sub>
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
 
 ## Engineering Highlights
@@ -153,14 +151,9 @@ Lately I've been focused on infrastructure — job queues, webhook security, rat
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=insaneUsail&layout=compact&theme=synthwave&hide_border=true)
 
-<!--
-Optional: a snake animation of your contribution graph.
-1. Copy .github/workflows/snake.yml into your insaneUsail/insaneUsail repo.
-2. Let the workflow run once (it creates an "output" branch).
-3. Uncomment the line below.
 
 ![snake gif](https://github.com/insaneUsail/insaneUsail/blob/output/github-contribution-grid-snake.svg)
--->
+
 
 <br>
 
