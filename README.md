@@ -40,8 +40,6 @@ Lately I've been focused on infrastructure — job queues, webhook security, rat
 </tr>
 </table>
 
-## Tech Stack
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
 
 ## Tech Stack
