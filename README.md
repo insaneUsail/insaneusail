@@ -125,14 +125,14 @@ Read a PDF in-browser, select any word or passage, and get an instant AI explana
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=insaneUsail&layout=compact&theme=synthwave&hide_border=true)
 
-<!--
+
 Optional: a snake animation of your contribution graph.
 1. Copy .github/workflows/snake.yml into your insaneUsail/insaneUsail repo.
 2. Let the workflow run once (it creates an "output" branch).
 3. Uncomment the line below.
 
 ![snake gif](https://github.com/insaneUsail/insaneUsail/blob/output/github-contribution-grid-snake.svg)
--->
+
 
 <br>
 
