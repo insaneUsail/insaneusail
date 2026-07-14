@@ -34,7 +34,7 @@
 
 ## Tech Stack
 
-<img src="assets/github-stats.jpg" width="300" align="left" style="border-radius:10px; margin-left: 15px; margin-top:20px" alt="Usail Khan" />
+<img src="assets/logos.jpg" width="260" align="left" style="border-radius:10px; margin-left: 15px; margin-top:20px" alt="Usail Khan" />
 
 <p>
   <a href="https://skillicons.dev">
