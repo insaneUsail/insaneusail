@@ -92,7 +92,7 @@
 
 <table>
 <tr>
-<td width="120" valign="top"><img src="assets/insightai.png" width="100" height="100" style="border-radius:10px;" /></td>
+<td width="120" valign="top"><img src="assets/insightai.jpg" width="100" height="100" style="border-radius:10px;" /></td>
 <td valign="top">
 
 **📊 [InsightAI](https://github.com/insaneUsail/InsightAI)** — upload a CSV, get automatic KPIs, charts, and a Gemini-generated executive summary.
