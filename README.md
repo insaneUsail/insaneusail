@@ -14,8 +14,6 @@
 
 ## About Me
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:eeba2c,100:000000&height=220&section=header&text=Usail%20Khan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%94%20Real-Time%20Systems%20%2B%20AI%20Integrations&descAlignY=58&descSize=20" width="100%" />
-
 > ### Hi there! 👋
 > <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=eeba2c&width=450&lines=I+build+end-to-end+products.;Focusing+on+real-time+systems.;Wiring+LLMs+into+real+features." alt="Typing SVG" /></a>
 >
