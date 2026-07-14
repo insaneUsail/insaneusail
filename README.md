@@ -2,26 +2,40 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:eeba2c,100:000000&height=220&section=header&text=Usail%20Khan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%94%20Real-Time%20Systems%20%2B%20AI%20Integrations&descAlignY=58&descSize=20" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=eeba2c&center=true&vCenter=true&width=750&lines=Chat+apps%2C+canvases%2C+and+AI-integrated+backends;Exploring+queues%2C+WebSockets%2C+and+voice+AI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=eeba2c&center=true&vCenter=true&width=800&lines=Building+chat+apps%2C+canvases%2C+and+AI-integrated+backends;Currently+exploring+queues%2C+WebSockets%2C+and+voice+AI)](https://git.io/typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=insaneUsail&label=Profile%20views&color=eeba2c&style=flat" alt="profile views" />
+
 </div>
 
 <br>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
+
 ## About Me
 
-I build **end-to-end products** — usually the same person writing the React UI, the Express/FastAPI backend, the auth middleware, and the deploy config. My repos lean toward two recurring problems: **real-time synchronization** (chat, collaborative canvases) and **wiring LLMs into real product features** (data analysis, code review, interview prep, reading assistance) rather than another chatbot wrapper.
+<table>
+<tr>
+<td width="160" valign="top">
+<img src="assets/about.png" width="140" height="140" style="border-radius:12px;object-fit:cover;" />
+<!-- replace assets/about.png with your own photo/avatar, same file name -->
+</td>
+<td valign="top">
 
-My current focus is backend and infrastructure — job queues, webhook security, rate limiting, WebSocket protocols. The parts of a project that don't show up in a demo GIF but decide whether it survives production traffic. My most recent project, an AI PR-review GitHub App, is the clearest example: less "call an API and show the result," more "verify the request, queue the work, handle the failure, gate the outcome."
+I build **end-to-end products** — usually the same person writing the UI, the backend, the auth, and the deploy config. My repos lean toward two problems: **real-time sync** (chat, collaborative canvases) and **wiring LLMs into real features** (code review, data analysis, interview prep) rather than another chatbot wrapper.
 
-**A few habits that show up across my repos, for better or worse:**
-- Prefer a degraded response over a broken one — several AI integrations have explicit fallback chains instead of a single point of failure.
-- Verify inputs at the boundary (webhook signatures, JWTs, Zod schemas) rather than trusting the caller.
-- Reach for the managed tool (Socket.IO, an ORM) when it fits, and drop to the lower-level primitive (raw `ws`, a hand-written protocol) when I want more control.
-- Started on plain JS/CRUD apps and moved toward TypeScript, queues, and AI-integrated backends as the projects got more recent — still learning in public.
+Lately I've been focused on infrastructure — job queues, webhook security, rate limiting, WebSocket protocols — the parts that decide whether a project survives real traffic, not just the demo.
 
-<br>
+**Habits that show up across my repos:**
+- Prefer a degraded response over a broken one (fallback chains, not single points of failure)
+- Verify inputs at the boundary — webhook signatures, JWTs, Zod schemas
+- Reach for the managed tool when it fits, drop to the raw primitive when I need control
+
+</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
 
 ## Tech Stack
 
@@ -34,84 +48,99 @@ My current focus is backend and infrastructure — job queues, webhook security,
 | | |
 |---|---|
 | **Languages** | JavaScript · TypeScript · Python · C++ |
-| **Frontend** | React · Next.js · Redux · Zustand · Tailwind CSS · Vite · Radix UI · Recharts |
-| **Backend** | Node.js · Express · FastAPI · Socket.IO · WebSocket (`ws`) · BullMQ |
-| **Databases** | PostgreSQL · Prisma · MongoDB / Mongoose · Supabase · Firebase Firestore |
-| **AI & ML** | Gemini API · Groq (Llama 3.x) · OpenAI SDK · Vapi (voice AI) · pandas / numpy |
-| **DevOps** | Docker · Turborepo · Redis · PM2 · Vercel · Heroku |
-| **Tools** | JWT · Cloudinary · Stripe · GitHub Apps/Webhooks API · Zod · ESLint |
+| **Frontend** | React · Next.js · Redux · Zustand · Tailwind · Vite · Radix UI |
+| **Backend** | Node.js · Express · FastAPI · Socket.IO · `ws` · BullMQ |
+| **Databases** | PostgreSQL · Prisma · MongoDB · Supabase · Firebase |
+| **AI & ML** | Gemini · Groq (Llama 3.x) · OpenAI SDK · Vapi · pandas/numpy |
+| **DevOps** | Docker · Turborepo · Redis · PM2 · Vercel |
+| **Tools** | JWT · Cloudinary · Stripe · GitHub Webhooks API · Zod |
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
 
 ## Featured Projects
 
-### 🔍 [Review-Codex](https://github.com/insaneUsail/Review-Codex) — AI-powered PR review GitHub App
-An installable GitHub App that reviews every pull request with an LLM, posts inline comments, and can **fail a required Check Run** on critical findings so a bad PR can't be merged.
+<table>
+<tr>
+<td width="120" valign="top"><img src="assets/review-codex.png" width="100" height="100" style="border-radius:10px;" /></td>
+<td valign="top">
 
-- **Problem solved:** manual review is slow and inconsistent, especially without a dedicated reviewer rotation.
-- **Engineering challenges:** HMAC-SHA256 webhook verification with a timing-safe comparison to stop forged events; Redis-backed rate limiting per repo; a diff chunker that respects LLM token budgets *without* splitting a file's hunks across two calls, so the model always sees a file's full context; a BullMQ fan-out/fan-in pipeline with idempotent completion counters; a "fail open" rule so one broken LLM call doesn't kill the whole review job.
-- **Tech:** TypeScript · Express · Redis · BullMQ · Groq (Llama 3.3 70B) · Octokit · GitHub Checks API
-- **Why it stands out:** the only project here shipped as an actual installable product, not a local demo — the code reads like it was written by someone who's thought about what happens when things go wrong, not just the happy path.
+**🔍 [Review-Codex](https://github.com/insaneUsail/Review-Codex)** — AI GitHub App that reviews every PR with an LLM and can **block merges** via a failing Check Run on critical findings.
+`TypeScript` `Express` `Redis` `BullMQ` `Groq` · HMAC-verified webhooks, rate limiting, token-aware diff chunking, idempotent job fan-in.
 
-### 🎨 [Zketch](https://github.com/insaneUsail/Zketch) — real-time collaborative whiteboard
-A multiplayer drawing canvas where strokes, cursors, and chat sync live across a room, with state persisted so a drawing survives a refresh or dropped connection.
+</td>
+</tr>
+</table>
 
-- **Problem solved:** synchronous canvas collaboration with state that outlives the WebSocket connection instead of vanishing on disconnect.
-- **Engineering challenges:** a hand-written WebSocket protocol (not Socket.IO) with an explicit auth handshake and timeout before a socket is trusted; in-memory room/user maps for multiplexing sockets into rooms; a persist-on-stroke/replay-on-join reconciliation strategy backed by Prisma; a Turborepo monorepo with shared UI, ESLint, and TypeScript config packages.
-- **Tech:** Next.js · TypeScript · `ws` · Prisma · PostgreSQL · Turborepo · Zustand · Radix UI · Docker
-- **Why it stands out:** building the real-time layer on raw WebSockets instead of a library shows comfort with the protocol itself, not just an abstraction over it.
+<table>
+<tr>
+<td width="120" valign="top"><img src="assets/zketch.png" width="100" height="100" style="border-radius:10px;" /></td>
+<td valign="top">
 
-### 🎙️ [AI-interview-WebApp](https://github.com/insaneUsail/AI-interview-WebApp) — voice-driven mock interview platform
-Generates role- and stack-specific interview questions with an LLM, then runs the interview through a live conversational voice agent.
+**🎨 [Zketch](https://github.com/insaneUsail/Zketch)** — real-time collaborative whiteboard with persistent room state that survives refreshes.
+`Next.js` `ws` `Prisma` `PostgreSQL` `Turborepo` · hand-written WebSocket protocol with auth handshake, monorepo architecture.
 
-- **Problem solved:** interview practice is hard to do alone; this turns a static question list into a spoken, back-and-forth mock interview.
-- **Engineering challenges:** a polyglot setup — TypeScript/Next.js frontend talking to a separate Python/FastAPI backend; normalizing Vapi's different tool-call payload shapes into one format; defensively extracting a JSON array from LLM output that doesn't always come back clean; Firebase Firestore as the data layer alongside Firebase Auth.
-- **Tech:** Next.js · TypeScript · FastAPI · Python · Groq · Vapi · Firebase · Zod · React Hook Form
-- **Why it stands out:** most "AI chat" side projects stop at text — this one integrates a real voice agent and coordinates two backend languages for one product.
+</td>
+</tr>
+</table>
 
-### 📊 [InsightAI](https://github.com/insaneUsail/InsightAI) — AI-assisted data analytics dashboard
-Upload a CSV, get automatic KPI extraction, charts, and a Gemini-generated executive summary you can ask follow-up questions about.
+<table>
+<tr>
+<td width="120" valign="top"><img src="assets/ai-interview.png" width="100" height="100" style="border-radius:10px;" /></td>
+<td valign="top">
 
-- **Problem solved:** turning an arbitrary business spreadsheet into KPIs and a narrative summary without manual wrangling per dataset.
-- **Engineering challenges:** a column-detection heuristic that guesses which column is revenue/profit/region/date from naming patterns instead of assuming a fixed schema; safe fallback math when an expected column (like profit) is missing; a FastAPI service layer using dependency overrides so services are shared singletons; parsing structured sections back out of free-form LLM prose.
-- **Tech:** FastAPI · pandas · numpy · Gemini API · React · Recharts · Tailwind CSS
-- **Why it stands out:** the column-detection logic means it wasn't hard-coded against one sample CSV — a small but telling sign of building for general input, not a demo.
+**🎙️ [AI-interview-WebApp](https://github.com/insaneUsail/AI-interview-WebApp)** — voice-driven mock interview platform with an LLM generating questions and a live voice agent running the interview.
+`Next.js` `FastAPI` `Groq` `Vapi` `Firebase` · polyglot TS + Python backend, resilient LLM output parsing.
 
-### 📖 [Text-Companion](https://github.com/insaneUsail/Text-Companion) — AI reading companion for PDFs
-Read a PDF in-browser, select any word or passage, and get an instant AI explanation, example, and synonyms — library synced to the cloud.
+</td>
+</tr>
+</table>
 
-- **Problem solved:** dense reading material usually means switching tabs to look something up; this keeps the explanation inline.
-- **Engineering challenges:** a **three-tier fallback chain** for the AI feature (Gemini → Groq → a static offline response) so it degrades instead of breaking when a provider is down or rate-limited; in-browser PDF rendering and text selection with `react-pdf`/`pdfjs-dist`; Supabase for file storage alongside Firebase for auth.
-- **Tech:** React · Vite · Express · Supabase · Firebase Admin SDK · Gemini SDK · Groq (OpenAI-compatible SDK) · `pdf-parse`
-- **Why it stands out:** the fallback chain is a genuinely pragmatic resilience pattern — most side projects call one API and hope it stays up.
+<table>
+<tr>
+<td width="120" valign="top"><img src="assets/insightai.png" width="100" height="100" style="border-radius:10px;" /></td>
+<td valign="top">
 
-<br>
+**📊 [InsightAI](https://github.com/insaneUsail/InsightAI)** — upload a CSV, get automatic KPIs, charts, and a Gemini-generated executive summary.
+`FastAPI` `pandas` `Gemini API` `React` · heuristic column detection, no hard-coded schema.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="120" valign="top"><img src="assets/text-companion.png" width="100" height="100" style="border-radius:10px;" /></td>
+<td valign="top">
+
+**📖 [Text-Companion](https://github.com/insaneUsail/Text-Companion)** — AI reading companion; select text in a PDF, get an instant explanation.
+`React` `Express` `Supabase` `Gemini` `Groq` · three-tier AI fallback chain (Gemini → Groq → offline default).
+
+</td>
+</tr>
+</table>
+
+<sub>💡 Replace each `assets/*.png` placeholder with your own image (same file name, ~200×200px) in an `assets/` folder in this repo.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
 
 ## Engineering Highlights
 
-**AI integration, more than one way.** Gemini, Groq-hosted Llama models, the OpenAI SDK, and a voice agent (Vapi) across different projects — including a multi-provider fallback chain (Text-Companion) and structured-JSON prompting for downstream parsing (Review-Codex, AI-interview-WebApp, InsightAI).
+- **AI integration, more than one way** — Gemini, Groq, OpenAI SDK, and a voice agent (Vapi), including a multi-provider fallback chain and structured-JSON prompting
+- **Real-time at different levels** — Socket.IO, a hand-rolled WebSocket protocol, and a job queue used as async "broadcast"
+- **Backend infra** — Redis rate limiting, BullMQ fan-out/fan-in, HMAC webhook verification
+- **Auth, repeated deliberately** — JWT middleware in nearly every backend, plus Firebase/Supabase auth
+- **Full-stack commerce** — cart, Stripe checkout, order lifecycle, role-gated admin dashboard
+- **Developer tooling** — Turborepo monorepo with shared config packages, Docker, PM2
 
-**Real-time communication at different levels of abstraction.** Socket.IO for a straightforward presence/chat app, a hand-rolled WebSocket protocol with an auth handshake for a collaborative canvas, and a job queue (BullMQ) used as a batched, async form of "broadcast" for PR reviews.
-
-**Backend architecture and job processing.** Redis-backed rate limiting, BullMQ fan-out/fan-in with idempotent counters, and webhook signature verification in Review-Codex — the most infrastructure-heavy code in the portfolio.
-
-**Authentication, repeated deliberately.** JWT auth middleware in nearly every backend (a consistent `protectRoute`/`isAuthenticatedUser` pattern), plus Firebase Auth and Supabase auth in the AI-facing apps.
-
-**Full-stack commerce.** Cart, checkout, Stripe payments, order lifecycle, and a role-gated admin dashboard in an earlier e-commerce project — a useful counterweight to the AI-heavy recent work.
-
-**Developer tooling.** A Turborepo monorepo with shared ESLint/Tailwind/TypeScript config packages (Zketch), Docker, and PM2 process management.
-
-**Fundamentals.** A handful of smaller repos (a currency converter, a weather app, a browser game, DSA practice in C++) sit earlier in the commit history — the on-ramp before the full-stack and AI-integrated work above.
-
-<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
 
 ## Current Interests
 
-- **Agentic / LLM-powered developer tooling** — automated code review is a step past "chatbot," and I want to keep building in this direction.
-- **Lower-level real-time systems** — writing WebSocket handling myself instead of only relying on Socket.IO.
-- **Voice-driven AI interfaces** — the interview app is my first project past text-based chat.
+- Agentic / LLM-powered developer tooling
+- Lower-level real-time systems (raw WebSockets over Socket.IO)
+- Voice-driven AI interfaces
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
 
 ## GitHub Stats
 
@@ -124,9 +153,14 @@ Read a PDF in-browser, select any word or passage, and get an instant AI explana
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=insaneUsail&layout=compact&theme=synthwave&hide_border=true)
 
+<!--
+Optional: a snake animation of your contribution graph.
+1. Copy .github/workflows/snake.yml into your insaneUsail/insaneUsail repo.
+2. Let the workflow run once (it creates an "output" branch).
+3. Uncomment the line below.
 
 ![snake gif](https://github.com/insaneUsail/insaneUsail/blob/output/github-contribution-grid-snake.svg)
-
+-->
 
 <br>
 
