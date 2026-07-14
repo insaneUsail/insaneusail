@@ -17,7 +17,7 @@
 > ### Hi there! 👋
 > <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=eeba2c&width=450&lines=I+build+end-to-end+products.;Focusing+on+real-time+systems.;Wiring+LLMs+into+real+features." alt="Typing SVG" /></a>
 >
-> <img src="assets/about.jpg" width="180" align="right" style="border-radius:10px; margin-left: 15px;" alt="Usail Khan" />
+> <img src="assets/about.jpg" width="180" align="right" style="border-radius:10px; margin-left: 15px; margin-top:20px" alt="Usail Khan" />
 >
 > I'm usually the same person writing the UI, the backend, the auth, and the deploy config. My repos lean toward two problems: **real-time sync** (chat, collaborative canvases) and **wiring LLMs into real features** (code review, data analysis, interview prep) rather than another chatbot wrapper.
 >
