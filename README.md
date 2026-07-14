@@ -138,7 +138,7 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=insaneUsail&show_icons=true&theme=synthwave&hide_border=true" alt="Usail's GitHub Stats" />
+  <img src="assets/github-stats.jpg" width="495" height="195" alt="Usail's GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=insaneUsail&theme=synthwave&hide_border=true" alt="Usail's Streak Stats" />
 </p>
 
