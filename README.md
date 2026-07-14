@@ -14,32 +14,24 @@
 
 ## About Me
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:eeba2c,100:000000&height=340&section=header&text=Usail%20Khan&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=20&desc=Full-Stack%20Developer%20%E2%80%94%20Real-Time%20Systems%20%2B%20AI%20Integrations&descAlignY=32&descSize=16" width="100%" />
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:eeba2c,100:000000&height=220&section=header&text=Usail%20Khan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%94%20Real-Time%20Systems%20%2B%20AI%20Integrations&descAlignY=58&descSize=20" width="100%" />
 
-<table>
-<tr>
-<td width="260" valign="top">
-  <img src="assets/about.jpg" width="250" style="border-radius:10px; display:block; box-shadow: 0 4px 20px rgba(238,186,44,0.15);" alt="Usail Khan" />
-</td>
-<td valign="top" style="padding-left: 15px;">
+> ### Hi there! 👋
+> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=eeba2c&width=450&lines=I+build+end-to-end+products.;Focusing+on+real-time+systems.;Wiring+LLMs+into+real+features." alt="Typing SVG" /></a>
+>
+> <img src="assets/about.jpg" width="180" align="right" style="border-radius:10px; margin-left: 15px;" alt="Usail Khan" />
+>
+> I'm usually the same person writing the UI, the backend, the auth, and the deploy config. My repos lean toward two problems: **real-time sync** (chat, collaborative canvases) and **wiring LLMs into real features** (code review, data analysis, interview prep) rather than another chatbot wrapper.
+>
+> Lately I've been focused on infrastructure — job queues, webhook security, rate limiting, WebSocket protocols — the parts that decide whether a project survives real traffic, not just the demo.
+>
+> **Habits that show up across my repos:**
+> - 🛡️ **Verify inputs at the boundary** — webhook signatures, JWTs, Zod schemas
+> - ⛓️ **Fallback chains over failure** — prefer a degraded response over a broken one
+> - 🛠️ **Pragmatic tooling** — reach for managed tools first, drop to raw primitives for control
 
-### Hi there! 👋
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=eeba2c&width=450&lines=I+build+end-to-end+products.;Focusing+on+real-time+systems.;Wiring+LLMs+into+real+features." alt="Typing SVG" /></a>
+<br clear="right"/>
 
-I build **end-to-end products** — usually the same person writing the UI, the backend, the auth, and the deploy config. My repos lean toward two problems: **real-time sync** (chat, collaborative canvases) and **wiring LLMs into real features** (code review, data analysis, interview prep) rather than another chatbot wrapper.
-
-Lately I've been focused on infrastructure — job queues, webhook security, rate limiting, WebSocket protocols — the parts that decide whether a project survives real traffic, not just the demo.
-
-**Habits that show up across my repos:**
-- 🛡️ **Verify inputs at the boundary** — webhook signatures, JWTs, Zod schemas
-- ⛓️ **Fallback chains over failure** — prefer a degraded response over a broken one
-- 🛠️ **Pragmatic tooling** — reach for managed tools first, drop to raw primitives for control
-
-</td>
-</tr>
-</table>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
 
