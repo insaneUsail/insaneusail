@@ -14,9 +14,6 @@
 
 ## About Me
 
-
-## About Me
-
 <table>
 <tr>
 <!-- Image Column -->
