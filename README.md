@@ -2,7 +2,7 @@
 
 # Hey, I'm Usail 👋
 
-### [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=5BCDEC&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Real-Time+Systems+%2B+AI+Integrations;Currently+building+with+LLMs+and+WebSockets)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=5BCDEC&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Real-Time+Systems+%2B+AI+Integrations;Currently+building+with+LLMs+and+WebSockets)](https://git.io/typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=insaneUsail&label=Profile%20views&color=5BCDEC&style=flat" alt="profile views" />
 
