@@ -14,43 +14,31 @@
 
 ## About Me
 
-<div align="center">
-  <svg width="100%" height="320" viewBox="0 0 800 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- Animated Gradient Background -->
-    <defs>
-      <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#000000" />
-        <stop offset="50%" stop-color="#1a1505" />
-        <stop offset="100%" stop-color="#000000" />
-      </linearGradient>
-      <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#eeba2c" />
-        <stop offset="50%" stop-color="#000000" />
-        <stop offset="100%" stop-color="#eeba2c" />
-        <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite" />
-        <animate attributeName="x2" values="100%;200%;100%" dur="8s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
 
-    <!-- Card Body -->
-    <rect width="800" height="320" rx="15" fill="url(#glow)" stroke="url(#borderGlow)" stroke-width="2"/>
+<table>
+<tr>
+<td width="260" valign="top">
+  <img src="assets/about.jpg" width="250" style="border-radius:10px; display:block; box-shadow: 0 4px 20px rgba(238,186,44,0.15);" alt="Usail Khan" />
+</td>
+<td valign="top" style="padding-left: 15px;">
 
-    <!-- Embedded Text & Formatting -->
-    <foreignObject x="20" y="20" width="760" height="280">
-      <div xmlns="http://www.w3.org/1999/xhtml" style="color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; line-height: 1.6;">
-        <h3 style="color: #eeba2c; margin-top: 0; font-size: 20px;">⚡ Engineering Philosophy</h3>
-        <p>I build <strong>end-to-end products</strong> — orchestrating the UI, backend pipelines, security auth, and scaling configurations simultaneously. My architecture focuses aggressively on <strong>real-time sync engines</strong> and deep <strong>LLM feature integrations</strong>.</p>
-        <p style="color: #aeaeae;">Current Infrastructure Focus: Job queues, webhook HMAC signatures, rate-limiting layers, and bare-metal WebSocket protocols built to survive production load.</p>
-        
-        <div style="margin-top: 15px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 13px;">
-          <div>🔹 <strong>Input Verification:</strong> Zero-trust boundaries via Zod & JWTs.</div>
-          <div>🔹 <strong>Resilient Degradation:</strong> Multi-tier provider fallback architectures.</div>
-        </div>
-      </div>
-    </foreignObject>
-  </svg>
-</div>
+### Hi there! 👋
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=eeba2c&width=450&lines=I+build+end-to-end+products.;Focusing+on+real-time+systems.;Wiring+LLMs+into+real+features." alt="Typing SVG" /></a>
+
+I'm usually the same person writing the UI, the backend, the auth, and the deploy config. My repos lean toward two problems: **real-time sync** (chat, collaborative canvases) and **wiring LLMs into real features** (code review, data analysis, interview prep) rather than another chatbot wrapper.
+
+Lately I've been focused on infrastructure — job queues, webhook security, rate limiting, WebSocket protocols — the parts that decide whether a project survives real traffic, not just the demo.
+
+**Habits that show up across my repos:**
+- 🛡️ **Verify inputs at the boundary** — webhook signatures, JWTs, Zod schemas
+- ⛓️ **Fallback chains over failure** — prefer a degraded response over a broken one
+- 🛠️ **Pragmatic tooling** — reach for managed tools first, drop to raw primitives for control
+
+</td>
+</tr>
 </table>
+
+## Tech Stack
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:eeba2c,100:000000&height=3&width=100%25" width="100%" />
 
